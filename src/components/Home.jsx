@@ -65,7 +65,7 @@ const Home = () => {
       <div  className="w-full flex flex-row gap-x-4 justify-between items-center"
      >
       <input
-        type="text"
+        type="text" placeholder="title"
        // Dynamic width based on whether pasteId is present
             className={`${
               pasteId ? "w-[80%]" : "w-[85%]"
